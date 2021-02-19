@@ -113,6 +113,7 @@ Each section in this JSON document represents a content type within the SCILL pl
 Some properties need to be replaced with real values from objects created before. To implement that, use these special values which will be replaced during the process. Please also make sure, that you leave the order intact.
 
 `__APP_ID__`: The id of the app created in the first step
+
 `__BATTLE_PASS_ID__`: The id of the battle pass created in the first step
 `__DAILY__CATEGORY_TYPE_ID__`: Right now, three different category types exist, one is the daily type
 `__GENERIC__CATEGORY_TYPE_ID__`: Right now, three different category types exist, one is the generic type
