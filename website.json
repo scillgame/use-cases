@@ -1,0 +1,99 @@
+{
+  "app": {
+    "app_name": "Website",
+    "app_tag": "website",
+    "app_active": true
+  },
+  "apiKey": {
+    "label": "Webhooks - do not delete"
+  },
+  "challengeCategories": [
+    {
+      "app_id": "__APP_ID__",
+      "category_type": "__DAILY__CATEGORY_TYPE_ID__",
+      "category_name": "Daily Challenges",
+      "active": true
+    },
+    {
+      "app_id": "__APP_ID__",
+      "category_type": "__GENERIC__CATEGORY_TYPE_ID__",
+      "category_name": "Profile",
+      "active": true
+    }
+  ],
+  "challenges": [
+    {
+      "app_id": "__APP_ID__",
+      "challenge_category_id": "__CATEGORY_INDEX_0__",
+      "challenge_name": "Visit the website",
+      "challenge_type": "craft-item",
+      "challenge_description": "",
+      "is_battle_pass_challenge": false,
+      "challenge_reward_type_id": "__NOTHING_CHALLENGE_REWARD_TYPE_ID__",
+      "repeatable": true,
+      "challenge_icon": "",
+      "challenge_icon_hd": "",
+      "challenge_duration_time": 30,
+      "challenge_goal": 5,
+      "challenge_price": 0,
+      "challenge_xp": 10,
+      "challenge_reward": "",
+      "challenge_goal_condition": 0,
+      "challenge_auto_activated": true,
+      "period_range": "i",
+      "period_range_reset_at_time": "00:00:00",
+      "period_range_time_zone": "Arctic/Longyearbyen",
+      "generic_metadata": [
+        {
+          "values": ["page_impression"],
+          "conjunction": "OR",
+          "metadata_key": "item_type"
+        }
+      ]
+    }
+  ],
+  "battlePassChallenges": [
+    {
+      "app_id": "__APP_ID__",
+      "challenge_name": "Collect 100 Points",
+      "challenge_type": "collect-item",
+      "challenge_icon": "",
+      "challenge_icon_hd": "",
+      "challenge_goal": 5,
+      "challenge_price": 0,
+      "challenge_xp": 0,
+      "challenge_goal_condition": 0,
+      "generic_metadata": [
+        {
+          "values": ["points"],
+          "conjunction": "OR",
+          "metadata_key": "item_type"
+        }
+      ]
+    }
+  ],
+  "battlePasses": [
+    {
+      "app_id": "__APP_ID__",
+      "battle_pass_name": "User Levels",
+      "start_date": "2021-01-01T00:00:00Z",
+      "end_date": "2030-12-31T23:59:59Z",
+      "is_unlocked_incrementally": true,
+      "is_active": true,
+      "levels": [
+        {
+          "app_id": "__APP_ID__",
+          "battle_pass_id": "__BATTLE_PASS_ID__",
+          "is_active": true,
+          "reward_type_id": "item",
+          "reward_amount": "",
+          "challenges": [
+            {
+              "challenge_id": "__BATTLE_PASS_CHALLENGE_INDEX_0__"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
