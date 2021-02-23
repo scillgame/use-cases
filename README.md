@@ -94,7 +94,7 @@ The JSON documents structure defines the objects to be created in your SCILL Gaa
           "app_id": "__APP_ID__",
           "battle_pass_id": "__BATTLE_PASS_ID__",
           "is_active": true,
-          "reward_type_id": "item",
+          "reward_type_id": "__ITEM_BATTLE_PASS_REWARD_TYPE_ID__",
           "reward_amount": "",
           "challenges": [
             {
@@ -128,6 +128,10 @@ Some properties need to be replaced with real values from objects created before
 |`__MONEY_CHALLENGE_REWARD_TYPE_ID__`| The id of the "money" reward type|
 |`__BATTLE_PASS_CHALLENGE_ID_INDEX_0__`| The id of the first battle pass challenge created earlier|
 |`__BATTLE_PASS_CHALLENGE_ID_INDEX_n__`| The id of the nth battle pass challenge created earlier|
+|`__NOTHING_BATTLE_PASS_REWARD_TYPE_ID__`| The id of the "nothing" reward type|
+|`__ITEM_BATTLE_PASS_REWARD_TYPE_ID__`| The id of the "item" reward type|
+|`__EXPERIENCE_BATTLE_PASS_REWARD_TYPE_ID__`| The id of the "experience" reward type|
+|`__MONEY_BATTLE_PASS_REWARD_TYPE_ID__`| The id of the "money" reward type|
 
 This is the process of the script:
 
