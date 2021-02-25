@@ -16,6 +16,14 @@ The JSON documents structure defines the objects to be created in your SCILL Gaa
   "apiKey": {
     "label": "Webhooks - do not delete"
   },
+  "webhooks": [
+    {
+      "app_id": "__APP_ID__",
+      "webhook_type": "battlepass-challenge-changed",
+      "description": "Test",
+      "target_url": "https://www.google.com"
+    }    
+  ],
   "challengeCategories": [
     {
       "app_id": "__APP_ID__",
