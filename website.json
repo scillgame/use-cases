@@ -155,7 +155,7 @@
       "challenge_type": "collect-item",
       "challenge_icon": "https://scill-cdn.web.app/images/badge_rare_gempost_big.png",
       "challenge_icon_hd": "",
-      "challenge_goal": 5,
+      "challenge_goal": 100,
       "challenge_price": 0,
       "challenge_xp": 0,
       "challenge_goal_condition": 0,
