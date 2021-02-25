@@ -143,7 +143,7 @@
         {
           "values": ["profile_image"],
           "conjunction": "OR",
-          "metadata_key": "item_type"
+          "metadata_key": "item_name"
         }
       ]
     },        
@@ -161,7 +161,7 @@
         {
           "values": ["points"],
           "conjunction": "OR",
-          "metadata_key": "item_type"
+          "metadata_key": "item_name"
         }
       ]
     }
