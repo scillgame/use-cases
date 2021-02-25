@@ -11,13 +11,13 @@
     {
       "app_id": "__APP_ID__",
       "category_type": "__DAILY__CATEGORY_TYPE_ID__",
-      "category_name": "Daily Challenges",
+      "category_name": "Daily Tasks",
       "active": true
     },
     {
       "app_id": "__APP_ID__",
       "category_type": "__GENERIC__CATEGORY_TYPE_ID__",
-      "category_name": "Profile",
+      "category_name": "Weekly Tasks",
       "active": true
     }
   ],
@@ -31,16 +31,16 @@
       "is_battle_pass_challenge": false,
       "challenge_reward_type_id": "__NOTHING_CHALLENGE_REWARD_TYPE_ID__",
       "repeatable": true,
-      "challenge_icon": "",
+      "challenge_icon": "https://scill-cdn.web.app/images/badge_thunderstruck_big.png",
       "challenge_icon_hd": "",
       "challenge_duration_time": 30,
-      "challenge_goal": 5,
+      "challenge_goal": 1,
       "challenge_price": 0,
-      "challenge_xp": 10,
+      "challenge_xp": 1,
       "challenge_reward": "",
       "challenge_goal_condition": 0,
       "challenge_auto_activated": true,
-      "period_range": "i",
+      "period_range": "d",
       "period_range_reset_at_time": "00:00:00",
       "period_range_time_zone": "Arctic/Longyearbyen",
       "generic_metadata": [
@@ -50,14 +50,108 @@
           "metadata_key": "item_type"
         }
       ]
+    },
+    {
+      "app_id": "__APP_ID__",
+      "challenge_category_id": "__CATEGORY_INDEX_0__",
+      "challenge_name": "Read an article",
+      "challenge_type": "craft-item",
+      "challenge_description": "",
+      "is_battle_pass_challenge": false,
+      "challenge_reward_type_id": "__NOTHING_CHALLENGE_REWARD_TYPE_ID__",
+      "repeatable": true,
+      "challenge_icon": "https://scill-cdn.web.app/images/badge_the_marketeer_big.png",
+      "challenge_icon_hd": "",
+      "challenge_duration_time": 30,
+      "challenge_goal": 1,
+      "challenge_price": 0,
+      "challenge_xp": 1,
+      "challenge_reward": "",
+      "challenge_goal_condition": 0,
+      "challenge_auto_activated": true,
+      "period_range": "d",
+      "period_range_reset_at_time": "00:00:00",
+      "period_range_time_zone": "Arctic/Longyearbyen",
+      "generic_metadata": [
+        {
+          "values": ["page_impression_article"],
+          "conjunction": "OR",
+          "metadata_key": "item_type"
+        }
+      ]
+    },
+    {
+      "app_id": "__APP_ID__",
+      "challenge_category_id": "__CATEGORY_INDEX_1__",
+      "challenge_name": "Share an article",
+      "challenge_type": "craft-item",
+      "challenge_description": "Click on the share button at an article and share it with your community",
+      "is_battle_pass_challenge": false,
+      "challenge_reward_type_id": "__NOTHING_CHALLENGE_REWARD_TYPE_ID__",
+      "repeatable": true,
+      "challenge_icon": "https://scill-cdn.web.app/images/badge_ultra_powered_big.png",
+      "challenge_icon_hd": "",
+      "challenge_duration_time": 30,
+      "challenge_goal": 1,
+      "challenge_price": 0,
+      "challenge_xp": 5,
+      "challenge_reward": "",
+      "challenge_goal_condition": 0,
+      "challenge_auto_activated": true,
+      "period_range": "w",
+      "period_range_reset_at_time": "00:00:00",
+      "period_range_time_zone": "Arctic/Longyearbyen",
+      "generic_metadata": [
+        {
+          "values": ["share_article"],
+          "conjunction": "OR",
+          "metadata_key": "item_type"
+        }
+      ]
     }
   ],
   "battlePassChallenges": [
     {
       "app_id": "__APP_ID__",
+      "challenge_name": "Sign Up",
+      "challenge_type": "upgrade-item",
+      "challenge_icon": "https://scill-cdn.web.app/images/badge_the_phantom_big.png",
+      "challenge_icon_hd": "",
+      "challenge_goal": 1,
+      "challenge_price": 0,
+      "challenge_xp": 0,
+      "challenge_goal_condition": 0,
+      "generic_metadata": [
+        {
+          "values": ["account"],
+          "conjunction": "OR",
+          "metadata_key": "item_type"
+        }
+      ]
+    },    
+    {
+      "app_id": "__APP_ID__",
+      "challenge_name": "Upload profile image",
+      "challenge_type": "upgrade-item",
+      "challenge_icon": "https://scill-cdn.web.app/images/badge_pro_photographer_big.png",
+      "challenge_icon_hd": "",
+      "challenge_goal": 1,
+      "challenge_price": 0,
+      "challenge_xp": 0,
+      "challenge_goal_condition": 0,
+      "generic_metadata": [
+        {
+          "values": ["profile_image"],
+          "conjunction": "OR",
+          "metadata_key": "item_type"
+        }
+      ]
+    },        
+    {
+      "app_id": "__APP_ID__",
       "challenge_name": "Collect 100 Points",
       "challenge_type": "collect-item",
-      "challenge_icon": "",
+      "challenge_icon": "https://scill-cdn.web.app/images/badge_rare_gempost_big.png",
       "challenge_icon_hd": "",
       "challenge_goal": 5,
       "challenge_price": 0,
@@ -86,13 +180,49 @@
           "battle_pass_id": "__BATTLE_PASS_ID__",
           "is_active": true,
           "reward_type_id": "__ITEM_BATTLE_PASS_REWARD_TYPE_ID__",
-          "reward_amount": "",
+          "reward_amount": "login_hero",
           "challenges": [
             {
               "challenge_id": "__BATTLE_PASS_CHALLENGE_INDEX_0__"
             }
           ]
-        }
+        },
+        {
+          "app_id": "__APP_ID__",
+          "battle_pass_id": "__BATTLE_PASS_ID__",
+          "is_active": true,
+          "reward_type_id": "__ITEM_BATTLE_PASS_REWARD_TYPE_ID__",
+          "reward_amount": "profile_hero",
+          "challenges": [
+            {
+              "challenge_id": "__BATTLE_PASS_CHALLENGE_INDEX_1__"
+            }            
+          ]
+        },
+        {
+          "app_id": "__APP_ID__",
+          "battle_pass_id": "__BATTLE_PASS_ID__",
+          "is_active": true,
+          "reward_type_id": "__NOTHING_BATTLE_PASS_REWARD_TYPE_ID__",
+          "reward_amount": "",
+          "challenges": [
+            {
+              "challenge_id": "__BATTLE_PASS_CHALLENGE_INDEX_2__"
+            }            
+          ]
+        },
+        {
+          "app_id": "__APP_ID__",
+          "battle_pass_id": "__BATTLE_PASS_ID__",
+          "is_active": true,
+          "reward_type_id": "__NOTHING_BATTLE_PASS_REWARD_TYPE_ID__",
+          "reward_amount": "",
+          "challenges": [
+            {
+              "challenge_id": "__BATTLE_PASS_CHALLENGE_INDEX_2__"
+            }            
+          ]
+        }               
       ]
     }
   ]
