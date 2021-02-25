@@ -127,7 +127,7 @@
         {
           "values": ["account"],
           "conjunction": "OR",
-          "metadata_key": "item_type"
+          "metadata_key": "item_name"
         }
       ]
     },    
