@@ -2,7 +2,9 @@
   "app": {
     "app_name": "Website",
     "app_tag": "website",
-    "app_active": true
+    "app_active": true,
+    "has_battle_passes": true,
+    "has_challenges": true
   },
   "apiKey": {
     "label": "Webhooks - do not delete"
