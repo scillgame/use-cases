@@ -84,7 +84,7 @@
       "period_range_time_zone": "Arctic/Longyearbyen",
       "generic_metadata": [
         {
-          "values": ["page_impression_article"],
+          "values": ["article_page_impression"],
           "conjunction": "OR",
           "metadata_key": "item_type"
         }
