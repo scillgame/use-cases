@@ -13,8 +13,8 @@
     {
       "app_id": "__APP_ID__",
       "webhook_type": "battlepass-challenge-changed",
-      "description": "Test",
-      "target_url": "https://www.google.com"
+      "description": "Collect XP if finished",
+      "target_url": "https://europe-west1-scill-webhooks.cloudfunctions.net/collectXPIfFinished"
     }    
   ],
   "challengeCategories": [
