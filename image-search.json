@@ -1,0 +1,86 @@
+{
+  "app": {
+    "app_name": "Image Search",
+    "app_tag": "image-search",
+    "app_active": true,
+    "has_battle_passes": true,
+    "has_challenges": true
+  },
+  "apiKey": {
+    "label": "Default - do not delete"
+  },
+  "challengeCategories": [
+    {
+      "app_id": "__APP_ID__",
+      "category_type": "__GENERIC__CATEGORY_TYPE_ID__",
+      "category_name": "Internal Challenges",
+      "active": true
+    },
+    {
+      "app_id": "__APP_ID__",
+      "category_type": "__GENERIC__CATEGORY_TYPE_ID__",
+      "category_name": "Image Search Challenges",
+      "active": true
+    }
+  ],
+  "challenges": [
+    {
+      "app_id": "__APP_ID__",
+      "challenge_category_id": "__CATEGORY_INDEX_0__",
+      "challenge_name": "Page Impressions",
+      "challenge_type": "craft-item",
+      "challenge_description": "This challenge tracks the number of page impressions (up until 20) and drives display of images.",
+      "is_battle_pass_challenge": false,
+      "challenge_reward_type_id": "__NOTHING_CHALLENGE_REWARD_TYPE_ID__",
+      "repeatable": true,
+      "challenge_icon": "https://scill-cdn.web.app/images/badge_quest_comqueror_small.png",
+      "challenge_icon_hd": "",
+      "challenge_duration_time": 0,
+      "challenge_goal": 20,
+      "challenge_price": 0,
+      "challenge_xp": 0,
+      "challenge_reward": "",
+      "challenge_goal_condition": 0,
+      "challenge_auto_activated": true,
+      "period_range": "d",
+      "period_range_reset_at_time": "00:00:00",
+      "period_range_time_zone": "Arctic/Longyearbyen",
+      "generic_metadata": [
+        {
+          "values": ["page-impression"],
+          "conjunction": "OR",
+          "metadata_key": "item_type"
+        }
+      ]
+    },
+    {
+      "app_id": "__APP_ID__",
+      "challenge_category_id": "__CATEGORY_INDEX_1__",
+      "challenge_name": "Find 5 images",
+      "challenge_type": "collect-item",
+      "challenge_description": "Surf the website and find images. Click on the image to collect points.",
+      "is_battle_pass_challenge": false,
+      "challenge_reward_type_id": "__NOTHING_CHALLENGE_REWARD_TYPE_ID__",
+      "repeatable": true,
+      "challenge_icon": "https://scill-cdn.web.app/images/badge_the_marketeer_big.png",
+      "challenge_icon_hd": "",
+      "challenge_duration_time": 0,
+      "challenge_goal": 5,
+      "challenge_price": 0,
+      "challenge_xp": 1,
+      "challenge_reward": "",
+      "challenge_goal_condition": 0,
+      "challenge_auto_activated": true,
+      "period_range": "d",
+      "period_range_reset_at_time": "00:00:00",
+      "period_range_time_zone": "Arctic/Longyearbyen",
+      "generic_metadata": [
+        {
+          "values": ["image"],
+          "conjunction": "OR",
+          "metadata_key": "item_type"
+        }
+      ]
+    }
+  ]
+}
